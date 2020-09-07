@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>C_MemMgmt</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Construct_Test01.cs" />
+    <Compile Remove="Construct_Test02.cs" />
+    <Compile Remove="Construct_Test03.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Construct_Test01.cs" />
+    <None Include="Construct_Test02.cs" />
+    <None Include="Construct_Test03.cs" />
+  </ItemGroup>
+</Project>

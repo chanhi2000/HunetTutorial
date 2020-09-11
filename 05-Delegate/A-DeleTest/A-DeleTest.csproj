@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>A_DeleTest</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DeleTest.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="DeleTest.cs" />
+  </ItemGroup>
+</Project>

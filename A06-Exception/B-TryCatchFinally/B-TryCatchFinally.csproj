@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>B_TryCatchFinally</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="TryCatchFinally.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="TryCatchFinally.cs" />
+  </ItemGroup>
+
+</Project>

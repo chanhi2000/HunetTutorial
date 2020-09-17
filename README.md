@@ -6,12 +6,12 @@
 
 ## 목록
 
-#### [01-MyFirstProject][01-MyFirstProject]
-#### [02-MethodTest][02-MethodTest]
-#### [03-Class][03-Class]
-#### [04-Inheritance][04-Inheritance]
-#### [05-Delegate][05-Delegate]
-#### [06-Exception][06-Exception]
+#### [A01-MyFirstProject][A01-MyFirstProject]
+#### [A02-MethodTest][A02-MethodTest]
+#### [A03-Class][A03-Class]
+#### [A04-Inheritance][A04-Inheritance]
+#### [A05-Delegate][A05-Delegate]
+#### [A06-Exception][A06-Exception]
 
 ## 개요
 
@@ -22,6 +22,8 @@
  - [v0.0.5][v0.0.5] : 대리자 & 이벤트
  - [v0.0.6][v0.0.6] : 에외처리
 
+ - [v0.1.0][v0.1.0] : 프로젝트 재구성
+
 
 [v0.0.1]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.0.1
 [v0.0.2]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.0.2
@@ -29,9 +31,11 @@
 [v0.0.4]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.0.4
 [v0.0.5]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.0.5
 [v0.0.6]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.0.6
-[01-MyFirstProject]: 01-MyFirstProject
-[02-MethodTest]: 02-MethodTest
-[03-Class]: 03-Class
-[04-Inheritance]: 04-Inheritance
-[05-Delegate]: 05-Delegate
-[06-Exception]: 06-Exception
+[v0.1.0]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.1.0
+
+[A01-MyFirstProject]: A01-MyFirstProject
+[A02-MethodTest]: A02-MethodTest
+[A03-Class]: A03-Class
+[A04-Inheritance]: A04-Inheritance
+[A05-Delegate]: A05-Delegate
+[A06-Exception]: A06-Exception

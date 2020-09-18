@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>A_File</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="FileEx1.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="FileEx1.cs" />
+  </ItemGroup>
+
+</Project>

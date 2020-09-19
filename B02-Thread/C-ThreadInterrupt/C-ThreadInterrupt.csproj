@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>C_ThreadInterrupt</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ThreadStop.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ThreadStop.cs" />
+  </ItemGroup>
+</Project>

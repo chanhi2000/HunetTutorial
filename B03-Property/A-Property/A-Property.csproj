@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>A_Property</RootNamespace>
+  </PropertyGroup>
+ <ItemGroup>
+    <Compile Remove="pro1.cs" />
+    <Compile Remove="pro2.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="pro1.cs" />
+    <None Include="pro2.cs" />
+  </ItemGroup>
+</Project>

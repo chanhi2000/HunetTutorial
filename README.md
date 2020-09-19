@@ -13,9 +13,8 @@
 #### [A05-Delegate][A05-Delegate]
 #### [A06-Exception][A06-Exception]
 #### [B01-IO][B01-IO]
-
-#### [B01-IO][B01-IO]
 #### [B02-Thread][B02-Thread]
+#### [B03-Thread][B03-Property]
 
 ## 개요
 
@@ -29,7 +28,7 @@
  - [v0.1.0][v0.1.0] : 프로젝트 재구성
  - [v0.1.1][v0.1.1] : IO 관리
  - [v0.1.2][v0.1.2] : Thread처리
-
+ - [v0.1.3][v0.1.3] : 프로퍼티
 
 [v0.0.1]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.0.1
 [v0.0.2]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.0.2
@@ -40,6 +39,7 @@
 [v0.1.0]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.1.0
 [v0.1.1]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.1.1
 [v0.1.2]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.1.2
+[v0.1.3]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.1.3
 
 [A01-MyFirstProject]: A01-MyFirstProject
 [A02-MethodTest]: A02-MethodTest
@@ -49,4 +49,4 @@
 [A06-Exception]: A06-Exception
 [B01-IO]: B01-IO
 [B02-Thread]: B02-Thread
-
+[B03-Property]: B03-Property

@@ -40,8 +40,27 @@
 ```
 
 
-## Tip: 인덱스크기의오류
+## Tip: 파일 입출력 관련 오류
+
+```cs
+try 
+{
+     // Create an instance of StreamBuilder to read from a file.
+     // The using statement also closes the Statement.
+     using (StreamReader sr = new StringReader("TestFile2.txt"))
+     {
+         ...
+     }
+}
+```
+
+```bash
+The file could not be red:
+`C:\Documents and Settings\Administrator\My Documents\작업\Day09\Resource\입출력\입출력\bin\Debug\TestFile2.txt`
+계속 하려면 아무 키나 누르십시오.
+```
 
 #### 문제 분석
-
+ - 오류 : `StreamReader("TestFile2.txt")` 파일이 없다는 뜻입니다.
+ - 해결 : 경로나 해당 파일이 있는지 찾아봅니다.
 

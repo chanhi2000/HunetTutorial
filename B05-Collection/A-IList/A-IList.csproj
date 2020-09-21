@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>A_IList</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ArrayListTest.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ArrayListTest.cs" />
+  </ItemGroup>
+</Project>

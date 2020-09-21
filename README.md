@@ -16,6 +16,7 @@
 #### [B02-Thread][B02-Thread]
 #### [B03-Thread][B03-Property]
 #### [B04-Reflection][B04-Reflection]
+#### [B05-Collection][B05-Collection]
 
 ## 개요
 
@@ -31,6 +32,7 @@
  - [v0.1.2][v0.1.2] : Thread처리
  - [v0.1.3][v0.1.3] : 프로퍼티
  - [v0.1.4][v0.1.4] : 리플랙션
+ - [v0.1.5][v0.1.5] : 컬렉션
 
 [v0.0.1]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.0.1
 [v0.0.2]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.0.2
@@ -43,6 +45,7 @@
 [v0.1.2]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.1.2
 [v0.1.3]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.1.3
 [v0.1.4]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.1.4
+[v0.1.5]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.1.5
 
 [A01-MyFirstProject]: A01-MyFirstProject
 [A02-MethodTest]: A02-MethodTest
@@ -54,3 +57,4 @@
 [B02-Thread]: B02-Thread
 [B03-Property]: B03-Property
 [B04-Reflection]: B04-Reflection
+[B05-Collection]: B05-Collection

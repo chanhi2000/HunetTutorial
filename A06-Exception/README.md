@@ -44,26 +44,40 @@
 ## Tip: 인덱스크기의오류
 
 ```cs
-...
-tp2 = delegate(double d)
+namespace 예외처리
 {
-    Consle.WriteLine("d="+ d);
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int i = 0;
+            int a = 10;
+            int res = 0;
+
+            res = a / i;
+
+            Console.WriteLine("res={0");
+        }
+    }
 }
-tp2(90.8);
-..
+...
 ```
 
 ```bash
-매배 변수 형식이 대리자 매개 변수 형식과 일치 않으므로 무명 메서드를(을) 대리자 형식 '대리자와이벤트.대리자.Testp'(으)로 변환할 수 없습니다.
-'1' 매개 변수가 'double' 형식으로 선언되었지만 'string'형식이어야 합니다.
-'대리자와이벤트.대리자.Testp' 대리자에 잘못된 인수가 있습니다.
-'1' 인수: 'double' 에서 'string'(으)로 변환할 수 없습니다.
+처리 되지 않은 예외 : `System.DivideByZeroException`
+위치 : `예외처리.Program.Main(string[] args)`
 ```
 
 #### 문제 분석
-- 4개의 오류를 발생하는 것은 첫 번째 오류 메세지에 첫 줄에 선언된 tp2라는 대리자의 원형이 double가 없다는 것.
-- `Pt2 = delegate(double d)`
-- 두 번째 오류는 선언된 `double`는 없고 `String` 형식을 받는 매개 변수가 있는데 형식이 잘못되었다고 나는 에러입니다. 따라서 형변환이되지 않기 때문에 세 번째와 네 번째 오류가 나는 것입니다.
-- 선언된 대리자에 전달되는 값과 무명 메소드의 매개 인자는 대리자의 원형과 일치해야 합니다.
+- 컴파일시에 없는 에러가 실행 시에 발생하는 것이며 메세지를 보시면 처리되지 않는 예외를 발생한 것입니다.
+- 해결방안: 아래와 같이 try~catch 구문으로 Exception을 구현 후 컴파일 하세요.
+
+```cs
+try {
+    res = a / i;
+} catch (Exception e) {
+    Console.WriteLine(e.Message);
+}
+```
 
 

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>A_Reflection</RootNamespace>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Compile Remove="TypeTest1.cs" />
+    <Compile Remove="TypeTest2.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="TypeTest1.cs" />
+    <None Include="TypeTest2.cs" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="Hello\Hello.csproj" />
+  </ItemGroup>
+</Project>

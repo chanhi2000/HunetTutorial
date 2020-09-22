@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>B_LogicalOperator</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="TestOp.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="TestOp.cs" />
+  </ItemGroup>
+</Project>

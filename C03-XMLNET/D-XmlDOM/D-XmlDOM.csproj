@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>D_XmlDOM</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="XmlTest.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="XmlTest.cs" />
+  </ItemGroup>
+</Project>

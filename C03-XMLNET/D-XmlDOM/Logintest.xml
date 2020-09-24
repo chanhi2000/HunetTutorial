@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<register xmlns="http://termpuri.org/XMLFile1.xsd">
+   <login>
+    <login_id>Testxml</login_id>
+    <login_pwd>1111</login_pwd>
+   </login>
+   <private>
+    <name>홍길동</name>
+    <age>20</age>
+    <address>서울시</address>
+    <tel value="home">02-0000-0000</tel>
+   </private>
+   <login>
+    <login_id>Testxml2</login_id>
+    <login_pwd>2222</login_pwd>
+   </login>
+   <private>
+    <name>박길동</name>
+    <age>22</age>
+    <address>인천시</address>
+    <tel value="home">031-0000-0000</tel>
+   </private>
+</register >

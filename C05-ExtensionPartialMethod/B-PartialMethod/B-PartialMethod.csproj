@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>B_PartialMethod</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="PartialclassEx.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="PartialclassEx.cs" />
+  </ItemGroup>
+</Project>

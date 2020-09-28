@@ -20,6 +20,7 @@
 #### [C01-Generic][C01-Generic]
 #### [C02-Overloading][C02-Overloading]
 #### [C03-XMLNET][C03-XMLNET]
+#### [C04-AnonymousType][C04-AnonymousType]
 
 ## 개요
 
@@ -40,6 +41,7 @@
  - [v0.2.0][v0.2.0] : 제네릭
  - [v0.2.1][v0.2.1] : 연산자 오버로딩
  - [v0.2.2][v0.2.2] : XML.NET
+ - [v0.2.3][v0.2.3] : 익명형식
 
 [v0.0.1]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.0.1
 [v0.0.2]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.0.2
@@ -56,6 +58,7 @@
 [v0.2.0]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.2.0
 [v0.2.1]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.2.1
 [v0.2.2]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.2.2
+[v0.2.3]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.2.3
 
 
 [A01-MyFirstProject]: A01-MyFirstProject
@@ -72,3 +75,4 @@
 [C01-Generic]: C01-Generic
 [C02-Overloading]: C02-Overloading
 [C03-XMLNET]: C03-XMLNET
+[C04-AnonymousType]: C04-AnonymousType

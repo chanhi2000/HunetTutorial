@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>C_AnonymousMethod</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AnoymouseMethod.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="AnoymouseMethod.cs" />
+  </ItemGroup>
+</Project>

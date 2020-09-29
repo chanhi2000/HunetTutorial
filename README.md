@@ -23,6 +23,7 @@
 #### [C04-AnonymousType][C04-AnonymousType]
 #### [C05-ExtnesionPartialMethod][C05-ExtnesionPartialMethod]
 #### [C06-LINQ][C06-LINQ]
+#### [C07-App][C07-App]
 
 
 ## 개요
@@ -47,6 +48,7 @@
  - [v0.2.3][v0.2.3] : 익명형식
  - [v0.2.4][v0.2.4] : 확장 / 파셜 메소드
  - [v0.2.5][v0.2.5] : LINQ
+ - [v0.2.6][v0.2.6] : 응용프로그램
 
 [v0.0.1]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.0.1
 [v0.0.2]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.0.2
@@ -66,6 +68,7 @@
 [v0.2.3]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.2.3
 [v0.2.4]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.2.4
 [v0.2.5]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.2.5
+[v0.2.6]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.2.6
 
 [A01-MyFirstProject]: A01-MyFirstProject
 [A02-MethodTest]: A02-MethodTest
@@ -84,3 +87,4 @@
 [C04-AnonymousType]: C04-AnonymousType
 [C05-ExtnesionPartialMethod]: C05-ExtnesionPartialMethod
 [C06-LINQ]: C06-LINQ
+[C07-App]: C07-App

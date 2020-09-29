@@ -21,27 +21,24 @@
 #### [C02-Overloading][C02-Overloading]
 #### [C03-XMLNET][C03-XMLNET]
 #### [C04-AnonymousType][C04-AnonymousType]
-#### [C05-ExtnesionPartialMethod][C05-ExtnesionPartialMethod]
+#### [C05-ExtensionPartialMethod][C05-ExtensionPartialMethod]
 #### [C06-LINQ][C06-LINQ]
 #### [C07-App][C07-App]
 
 
 ## 개요
-
  - [v0.0.1][v0.0.1] : 초기 프로젝트 생성
  - [v0.0.2][v0.0.2] : 메소드 생성법 추가
  - [v0.0.3][v0.0.3] : 클래스
  - [v0.0.4][v0.0.4] : 상속
  - [v0.0.5][v0.0.5] : 대리자 & 이벤트
  - [v0.0.6][v0.0.6] : 에외처리
-
  - [v0.1.0][v0.1.0] : 프로젝트 재구성
  - [v0.1.1][v0.1.1] : IO 관리
  - [v0.1.2][v0.1.2] : Thread처리
  - [v0.1.3][v0.1.3] : 프로퍼티
  - [v0.1.4][v0.1.4] : 리플랙션
  - [v0.1.5][v0.1.5] : 컬렉션
-
  - [v0.2.0][v0.2.0] : 제네릭
  - [v0.2.1][v0.2.1] : 연산자 오버로딩
  - [v0.2.2][v0.2.2] : XML.NET
@@ -49,6 +46,7 @@
  - [v0.2.4][v0.2.4] : 확장 / 파셜 메소드
  - [v0.2.5][v0.2.5] : LINQ
  - [v0.2.6][v0.2.6] : 응용프로그램
+
 
 [v0.0.1]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.0.1
 [v0.0.2]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.0.2
@@ -85,6 +83,6 @@
 [C02-Overloading]: C02-Overloading
 [C03-XMLNET]: C03-XMLNET
 [C04-AnonymousType]: C04-AnonymousType
-[C05-ExtnesionPartialMethod]: C05-ExtnesionPartialMethod
+[C05-ExtensionPartialMethod]: C05-ExtensionPartialMethod
 [C06-LINQ]: C06-LINQ
 [C07-App]: C07-App

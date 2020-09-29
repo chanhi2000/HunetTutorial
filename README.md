@@ -25,6 +25,8 @@
 #### [C06-LINQ][C06-LINQ]
 #### [C07-App][C07-App]
 
+#### [D01-Exam][D01-Exam]
+
 
 ## 개요
  - [v0.0.1][v0.0.1] : 초기 프로젝트 생성
@@ -46,6 +48,7 @@
  - [v0.2.4][v0.2.4] : 확장 / 파셜 메소드
  - [v0.2.5][v0.2.5] : LINQ
  - [v0.2.6][v0.2.6] : 응용프로그램
+ - [v1.0.0][v1.0.0] : 과제
 
 
 [v0.0.1]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.0.1
@@ -67,6 +70,8 @@
 [v0.2.4]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.2.4
 [v0.2.5]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.2.5
 [v0.2.6]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v0.2.6
+[v1.0.0]: http://ginno.synology.me:3000/EDUCATION/HunetTutorial/src/v1.0.0
+
 
 [A01-MyFirstProject]: A01-MyFirstProject
 [A02-MethodTest]: A02-MethodTest
@@ -86,3 +91,4 @@
 [C05-ExtensionPartialMethod]: C05-ExtensionPartialMethod
 [C06-LINQ]: C06-LINQ
 [C07-App]: C07-App
+[D01-Exam]: D01-Exam

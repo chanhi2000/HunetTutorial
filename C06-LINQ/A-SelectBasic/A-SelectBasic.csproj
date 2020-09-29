@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>A_SelectBasic</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="SelectTest.cs" />
+    <Compile Remove="SelectTest2.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="SelectTest.cs" />
+    <None Include="SelectTest2.cs" />
+  </ItemGroup>
+</Project>
